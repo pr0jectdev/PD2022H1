@@ -1,8 +1,11 @@
 **Project Developer 2022H**
 
+<em>19/01/23</em> awaken
+- Adicionado arquivo: appspec.yml<br>
+
 <em>20/11/22</em> awaken
 - Projeto criado e enviado para o repositório.<br>
-\{ Maven Project \} - \{ Spring Boot 2.7.5 \} - \{ Java 17 \}
+\{ Maven Project \} - \{ Spring Boot 2.7.5 \} - \{ Java 17.0.5 \}
 
 - Dependências adicionadas ( [Mavem Repository](https://mvnrepository.com) ):
   * Spring Boot Data JPA (comentada)
