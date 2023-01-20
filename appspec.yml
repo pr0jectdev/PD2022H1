@@ -5,11 +5,6 @@ files:
     destination: /var/www/pd2022h-java
     overwrite: true
 file_exists_behavior: OVERWRITE
-permissions:
-  - object: /
-    pattern: "**"
-    owner: ec2-user
-    group: ec2-user
 hooks:
   ApplicationStop:
     - location: cicd/1_stop.sh
