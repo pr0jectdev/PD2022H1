@@ -9,11 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProjectdeveloperApplication {
 
-	public static void main(String[] args) {SpringApplication.run(ProjectdeveloperApplication.class, args);	}
+	public static void main(String[] args) {
+		SpringApplication.run(ProjectdeveloperApplication.class, args);
+	}
 
 	@GetMapping("/")
 	public String index() {
-		return "hello index";
+		return "Projeto Java - Teste CI/CD 20/01/23";
 	}
-	
+
 }
