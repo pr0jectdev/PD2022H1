@@ -5,3 +5,25 @@ files:
     destination: /var/www/pd2022h-java
     overwrite: true
 file_exists_behavior: OVERWRITE
+hooks:
+  ApplicationStop:
+    - location: cicd/1_stop.sh
+      timeout: 300
+      runas: root
+  BeforeInstall:
+    - location: cicd/2_before.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: cicd/3_after.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: cicd/4_start.sh
+      timeout: 300
+      runas: root
+  ValidateService:
+    - location: cicd/5_validade.sh
+      timeout: 300
+      runas: root
+  
