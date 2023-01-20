@@ -10,7 +10,7 @@ fi
 FILE2=/target
 if [ -f "$FILE2" ]; then
     echo "$FILE2 exists." >> /var/www/projectdev.services/html/deploy_pd2022h-java.txt
-	mvn clean package
+	/root/.sdkman/candidates/maven/current/bin/mvn clean package
 else 
     echo "$FILE2 does not exist." >> /var/www/projectdev.services/html/deploy_pd2022h-java.txt
 fi
