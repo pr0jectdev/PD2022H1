@@ -15,7 +15,7 @@ public class ProjectdeveloperApplication {
 
 	@GetMapping("/")
 	public String index() {
-		return "Projeto Java - Teste CI/CD 21/01/23 _ 09:46";
+		return "Projeto Java - Teste CI/CD 21/01/23 _ 10:01";
 	}
 
 }
